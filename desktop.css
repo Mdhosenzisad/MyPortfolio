@@ -73,3 +73,59 @@
 
 
 /* navbar design ends here */
+
+
+/* profile design start here */
+
+.profile .top-weather-icon {
+    position: absolute;
+    right: 100px;
+    width: 120px;
+    transition: width 2s, transform 2s;
+}
+
+.profile .top-weather-icon:hover {
+    width: 140px;
+}
+
+.profile-desc p {
+    color: lightslategray;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.profile .bottom-weather-icon {
+    bottom: 20px;
+    position: absolute;
+    left: 140px;
+    width: 120px;
+    transition: width 2s, transform 2s;
+}
+
+.profile .bottom-weather-icon:hover {
+    width: 140px;
+}
+
+
+/* profile design ends here */
+
+
+/* about me design starts here  */
+
+.aboutme-image {
+    margin-top: 100px;
+}
+
+.aboutme-image img {
+    height: 270px;
+    width: 250px;
+}
+
+.aboutme-desc p {
+    text-align: left;
+}
+
+
+/* about me design ends here  */
