@@ -1,0 +1,77 @@
+      * {
+          box-sizing: border-box;
+          font-family: 'Fira Sans', sans-serif;
+      }
+      
+      body {
+          margin: 0;
+      }
+      
+      h1 {
+          font-size: 2.5rem;
+          text-align: center;
+      }
+      
+      a {
+          color: white;
+          font-size: 1.2rem;
+          text-decoration: none;
+      }
+      
+      [class*="col-"] {
+          float: left;
+          padding: 10px;
+      }
+      /* for mobile  */
+      
+      [class*="col-"] {
+          width: 100%;
+      }
+      /* navbar design starts here  */
+      
+      .navbar {
+          display: flex;
+          align-content: center;
+          background-color: #40868b;
+          text-align: center;
+          margin: 0;
+          padding: 10px;
+          padding-bottom: 0%;
+          padding-top: 0%;
+      }
+      
+      .navbar h1 {
+          color: white;
+          margin: 0;
+          padding-top: 10px;
+      }
+      
+      .navbar-menu {
+          display: flex;
+          flex-direction: column;
+          text-transform: uppercase;
+      }
+      
+      .navbar-menu a {
+          background-color: #0c6168;
+          border-radius: 10px;
+          margin: 7px 0px;
+          padding: 10px;
+      }
+      
+      .navbar-menu a:hover {
+          background-color: gray;
+      }
+      
+      .navbar::after {
+          content: '';
+          display: table;
+          clear: both;
+      }
+      
+      .nav-logo img {
+          height: 90px;
+          width: 90px;
+          margin-bottom: 0;
+      }
+      /* navbar design ends here  */
