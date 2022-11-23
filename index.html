@@ -16,6 +16,9 @@
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Satisfy&display=swap" rel="stylesheet">
     <!-- mobile css -->
+    <!--  Bootstrap css file  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
     <link rel="stylesheet" href="style.css">
     <!-- desktop-->
     <link rel="stylesheet" href="desktop.css">
@@ -24,13 +27,13 @@
 <body>
     <!-- navbar  -->
     <div class="navbar">
-        <div class="nav-logo col-2">
+        <div class="nav-logo col-lg-2 col-md-6 col-sm-6">
             <img class="img" src="images/logo0.png" alt="logo">
         </div>
-        <div class="nav-heading col-4">
+        <div class="nav-heading col-lg-4 col-md-6 col-sm-6">
             <h1>Md. Hosen Zisad</h1>
         </div>
-        <div class="navbar-menu col-6">
+        <div class="navbar-menu col-lg-4 col-md-6 col-sm-6">
             <a href="#">Home</a>
             <a href="#about-me-id">About me</a>
             <a href="#skill-id">Skill</a>
@@ -57,10 +60,10 @@
     <div class="about-me" id="about-me-id">
         <h2>ABOUT ME</h2>
         <hr class="dotted-hr">
-        <div class="aboutme-image col-6">
+        <div class="aboutme-image col-lg-4 col-md-6 col-sm-6">
             <img src="images/zisad.jpg" alt="">
         </div>
-        <div class="aboutme-desc col-6">
+        <div class="aboutme-desc col-lg-4 col-md-6 col-sm-6">
             <p>I like to call myself “Research Engineer & Frontend Web Developer”. </p>
             <p>I have worked on Machine Learning. Recently I have done my Undergraduate research on NLP. Specifically on Segmentation and recognition. My research paper is under process of publication. My technical Knowledge is C++, JAVA, python, Html &
                 CSS,PHP & Laravel as a framework.</p>
@@ -95,7 +98,8 @@
     <!-- about me  -->
     <!-- professional experiense start -->
 
-    <div class="professional-experience">
+    <div class="professional-experience ">
+
         <div class="work-experience col-lg-4 col-md-6 col-sm-6">
             <div class="card">
                 <div class="card-icon">
@@ -130,9 +134,10 @@
         </div>
 
 
-        <div class="education  col-lg-4 col-md-6 col-sm-6">
+        <div class="education col-lg-4 col-md-6 col-sm-6">
 
-            <div class="card ">
+
+            <div class="card">
                 <div class="card-icon">
                     <img class="rounded-img" src="images/book.png" alt="work icon">
                 </div>
@@ -203,7 +208,7 @@
     <!-- professional experiense END-->
     <!-- achievement-contact starts from here  -->
     <div class="achievemnet-contact">
-        <div class="achievement col-4">
+        <div class="achievement col-lg-4 col-md-6 col-sm-6">
             <h2>ACHIEVEMENTS</h2>
             <hr class="dotted-hr">
             <p><strong>1.Role of NLP in the ERA of 4IR</strong> <br> Establishment Of Sheikh Kamal IT Business Incubator in CUET project.
@@ -213,7 +218,8 @@
             <p>4. IELTS 7 (Speaking-, Listening-, Writing-, Reading-) </p>
 
         </div>
-        <div class="contact col-4" id="contact-id">
+        <br>
+        <div class="contact col-lg-4 col-md-6 col-sm-6" id="contact-id">
             <h2>CONTACT ME</h2>
             <hr class="dotted-hr">
             <form action="mailto:zisad.cse.en@gmail.com" method="post" enctype="text/plain">
@@ -224,7 +230,8 @@
                 <button type="reset">RESET</button>
             </form>
         </div>
-        <div class="contact-links col-4">
+        <br>
+        <div class="contact-links col-lg-4 col-md-6 col-sm-6">
             <h2>More ways to Contact</h2>
             <hr class="dotted-hr">
             <div class="media-buttons">
@@ -242,22 +249,25 @@
 
 
     <!-- achievement-contact ends here  -->
+
+
+</body>
+<footer>
     <!-- footer starts from here  -->
 
-    <div class="footer">
-        <div class="footer-menu col-6">
+    <div class="footer ">
+        <div class="footer-menu col-lg-6 col-md-6 col-sm-6">
             <a href="#">Home</a>
             <a href="#about-me-id">About Me</a>
             <a href="#skill-id">Skill</a>
             <a href="#contact-id">Contact Me</a>
         </div>
 
-        <div class="footer-desc col-6">
+        <div class="footer-desc col-lg-6 col-md-6 col-sm-6">
             &copy; Zisad 2022. Developed with <span style="color: red; font-size: 1.5rem;">❤</span> by Zisad.
         </div>
     </div>
     <!-- footer ends here  -->
-
-</body>
+</footer>
 
 </html>

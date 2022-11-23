@@ -200,7 +200,7 @@
           border-radius: 5px;
           padding: 10px;
           transition: 0.3s;
-          height: 700px;
+          height: 800px;
       }
       
       .card:hover {
@@ -385,7 +385,7 @@
           padding: 10px;
           font-size: 1rem;
           text-align: center;
-          border: none;
+          border: 1px solid black;
           border-radius: 5px;
           resize: none;
       }
@@ -401,12 +401,19 @@
           width: 100px;
       }
       
+      .contact button::after {
+          display: table;
+          content: '';
+          clear: both;
+      }
+      
       .contact-links {
+          padding: 10px;
           text-align: center;
       }
       
       .media-buttons .btn {
-          border: none;
+          border: 1px solid rgb(14, 14, 14);
           border-radius: 25px;
           cursor: pointer;
           font-size: 32px;
@@ -420,10 +427,16 @@
           background-color: gray;
       }
       
-      .achievemnet-contact::after {
-          clear: both;
-          display: table;
+      .contact-links::after {
           content: '';
+          display: table;
+          clear: both;
+      }
+      
+      .achievemnet-contact::after {
+          content: '';
+          display: table;
+          clear: both;
       }
       /* achievement-contact ends here  */
       /* footer starts from here  */
@@ -451,4 +464,4 @@
           content: '';
           clear: both;
       }
-      /* footer ends here  */
+      /* footer ends here   */
